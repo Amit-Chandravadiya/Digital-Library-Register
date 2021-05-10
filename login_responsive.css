@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Play:wght@700&display=swap');
+body {
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  background: url("./top-view-books-with-copy-space.jpg");
+  background-size: 100% 100%;
+  background-position: center;
+  font-family: 'Play', sans-serif;
+}
+html {
+  font-size: 62.5%;
+}
+.loginbox {
+  
+  width: 32rem;
+  height: 42rem;
+  color: #000;
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  box-sizing: border-box;
+}
+
+h1 {
+  margin: 0;
+  padding: 0 0 2rem;
+  text-align: center;
+  font-size: 2.5rem;
+}
+
+.loginbox p {
+  margin: 0;
+  padding: 0;
+  font-weight: bold;
+}
+.loginbox input {
+  width: 100%;
+  margin-bottom: 2rem;
+}
+
+.loginbox input[type="text"],
+input[type="password"]{
+  border: none;
+  border-bottom: .1rem solid #000;
+  background: transparent;
+  outline: none;
+  height: 4rem;
+  color: #000;
+  font-size: 1.6rem;
+}
+
+.submitform
+{
+  margin-top: 1rem;
+  border: .1rem solid #063146;
+  border-radius: 1rem ;
+  height: 3.8rem;
+  width: 5.0rem;
+  color: #fff;
+  background: #063146;
+  font-family: 'Play', sans-serif;
+  font-size: 1.8rem;
+}
+
+.flinks
+{
+  text-decoration: none;
+  color: black;
+  line-height: 3.0rem;
+}
+.flinks:hover
+{
+  text-decoration: underline;
+}
+
+@media(max-width:998px){
+  html {
+    font-size: 55%;
+  }
+}
+
+
+@media(max-width:768px){
+  html {
+    font-size: 45%;
+  }
+}
